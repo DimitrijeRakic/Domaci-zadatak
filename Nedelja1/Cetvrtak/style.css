@@ -1,0 +1,15 @@
+body {
+    background:lightcyan;
+}
+
+th {
+    color:tomato;
+}
+
+table, th, td {
+    font-family:Arial,Helvetica,sans-serif;
+    border: 2px solid black;
+}
+.rednibroj {
+    color:rgb(13, 0, 128);
+}
