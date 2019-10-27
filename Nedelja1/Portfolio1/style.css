@@ -1,0 +1,71 @@
+body {
+    margin: 16px;
+    background-color:wheat;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(99, 96, 96, 0.562);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+}
+
+li a:hover {
+    background-color:black;
+
+}
+.baner-area {
+    position: relative;
+    width: 100%;
+    
+}
+.info-area, .link-area, .Projects-area {
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+h1 {
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+a {
+    padding: 10px;
+}
+
+img {
+    margin: 14px;
+}
+img~a {
+    color: black;
+    
+}
