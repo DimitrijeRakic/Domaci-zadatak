@@ -1,15 +1,69 @@
+nav {
+    background-color: rgb(255, 208, 0);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float:left;
+    padding: 16px;
+    margin-left: 280px;
+
+}
+
+li:hover {
+    background-color: #5f5f5f;
+}
+
 body {
-    background:lightcyan;
+    background:rgb(224, 224, 255);
+    text-align: center;
+}
+form {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
 }
 
 th {
     color:tomato;
 }
 
+table {
+    padding: 30px;
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
 table, th, td {
     font-family:Arial,Helvetica,sans-serif;
     border: 2px solid black;
 }
 .rednibroj {
     color:rgb(13, 0, 128);
+}
+caption {
+    color:red;
+    padding: 12px;
+    font-size: 30px;
 }
